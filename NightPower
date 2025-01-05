@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kup wysokiej jakości power banki od NightPower. Bezpieczeństwo, wydajność i niezawodność na każdą sytuację.">
+    <title>NightPower - Sklep z Power Bankami</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .product-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 300px;
+            text-align: center;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-item h3 {
+            margin: 0.5rem 0;
+        }
+
+        .product-item p {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .product-item button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .product-item button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NightPower - Twój niezawodny power bank</h1>
+        <nav>
+            <a href="#produkty">Produkty</a>
+            <a href="#kontakt">Kontakt</a>
+            <a href="#o-nas">O nas</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="produkty" class="product">
+            <div class="product-item">
+                <img src="powerbank1.jpg" alt="Power Bank 10000mAh">
+                <h3>Power Bank 10000mAh</h3>
+                <p>Wydajny, lekki i niezawodny. Idealny na każdą podróż.</p>
+                <button>Kup teraz</button>
+            </div>
+            <div class="product-item">
+                <img src="powerbank2.jpg" alt="Power Bank 20000mAh">
+                <h3>Power Bank 20000mAh</h3>
+                <p>Podwójna moc, idealny do dłuższych wyjazdów.</p>
+                <button>Kup teraz</button>
+            </div>
+            <div class="product-item">
+                <img src="powerbank3.jpg" alt="Power Bank Solar">
+                <h3>Power Bank Solar</h3>
+                <p>Ekologiczny, ładowany energią słoneczną.</p>
+                <button>Kup teraz</button>
+            </div>
+        </section>
+
+        <section id="o-nas">
+            <h2>O nas</h2>
+            <p>NightPower to firma oferująca nowoczesne rozwiązania w dziedzinie przenośnej energii. Nasze power banki to połączenie wysokiej jakości i przystępnej ceny. Zapewniamy niezawodność w każdej sytuacji.</p>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Masz pytania? Skontaktuj się z nami!</p>
+            <p>Email: <a href="mailto:nightpower.energiapl@gmail.com">nightpower.energiapl@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+48797427677">+48 797 427 677</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NightPower. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
